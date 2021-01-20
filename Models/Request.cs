@@ -12,6 +12,8 @@ namespace WeddingProject2.Models
         public decimal Total { get; set; }
         public int UserId { get; set; }
         public virtual Guest Guest { get; set; }
+        public virtual IEnumerable<RequestLine> RequestLines { get; set; }
+
         public Request()
         {
         }
