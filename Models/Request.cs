@@ -9,7 +9,10 @@ namespace WeddingProject2.Models
         public string RejectionReason { get; set; }
         public string DeliveryMode { get; set; }
         public string Status { get; set; }
-    public Request()
+        public decimal Total { get; set; }
+        public int UserId { get; set; }
+        public virtual Guest Guest { get; set; }
+        public Request()
         {
         }
     }
