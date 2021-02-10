@@ -10,6 +10,7 @@ namespace WeddingProject2.Controllers
 {
     public class ProductController : Controller
     {
+
         // GET: /<controller>/
         public IActionResult Index()
         {

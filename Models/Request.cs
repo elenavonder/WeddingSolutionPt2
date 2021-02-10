@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+
 namespace WeddingProject2.Models
 {
     public class Request
