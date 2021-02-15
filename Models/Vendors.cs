@@ -29,7 +29,6 @@ namespace WeddingProject2.Models
         [StringLength(255)]
         public string Email { get; set; }
 
-
         public Vendors()
         {
         }
